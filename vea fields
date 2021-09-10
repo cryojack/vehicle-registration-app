@@ -1,0 +1,44 @@
+VEHICLE_LIST fields
+****************************************************
+VEHICLE_ID              // unique ID, will be unique
+VEHICLE_NAME            // vehicle name, also unique
+VEHICLE_TYPE            // bike or car
+VEHICLE_MODEL_NAME      // the vehicle model
+VEHICLE_DATE_PURCHASED  // when it was purchased
+VEHICLE_PRICE           // purchase price
+VEHICLE_OWNER           // name of owner
+****************************************************
+
+****************************************************
+VEHICLE_SERVICES_TBL fields
+****************************************************
+SERVICE_JOB_NO          // unique service number
+VEHICLE_ID              // the vehicle to which this service belongs
+SERVICE_JOB_PRICE       // price of total service
+SERVICE_JOB_DATE        // date when it was done
+SERVICE_JOB_DATE_ADDED  // date when this was uploaded
+****************************************************
+
+****************************************************
+VEHICLE_SERVICE_LIST_TBL fields
+****************************************************
+SERVICE_ID          // unique service id
+SERVICE_JOB_NO      // job number to which this service belongs
+SERVICE_DETAIL      // small description of the service
+SERVICE_PRICE       // price of specific service
+SERVICE_DATE_ADDED  // date when it was uploaded
+
+*******************************************
+Job details for job number - SEVICE_JOB_NO
+*******************************************
+Assigned to vehicle - getname(VEHICLE_ID)
+Date of job - SERVICE_JOB_DATE
+Job Price - SERVICE_JOB_PRICE
+*******************************************
+
+*******************************************
+List of services
+*******************************************
+Service ID | Service Details | Service Price
+*******************************************
+SERVICE_ID |  SERVICE_DETAIL | SERVICE_PRICE

@@ -1,0 +1,65 @@
+[
+    {
+        "id"            :   1,
+        "firstname"     :   "Max",
+        "lastname"      :   "Payne",
+        "age"           :   25,
+        "email"         :   "mx_payne@mailz.com",
+        "username"      :   "maxxy1212",
+        "address"       :   {
+            "housenumber"   :   "Flat 23",
+            "building"      :   "Vanity Apartments",
+            "street"        :   "7 Rosewood Street",
+            "city"          :   "New York",
+            "state"         :   "NY",
+            "zipcode"       :   "90541",
+            "country"       :   "US"
+        },
+        "occupation"    :   "Investment Banker",
+        "company"       :   {
+            "name"          :   "Lehman Brothers & Co.",
+            "address"       :   {
+                "building"      :   "Lehman Brothers Building No. 3",
+                "street"        :   "30 Rockville Plaza",
+                "city"          :   "New York",
+                "state"         :   "NY",
+                "zipcode"       :   "90440",
+                "country"       :   "US"
+            },
+            "telephone" :   "744-54482-3699"
+        },
+        "employstatus"  :   "Employed Full-time"
+    },
+
+    {
+        "id"            :   2,
+        "firstname"     :   "Jason",
+        "lastname"      :   "Bourne",
+        "age"           :   31,
+        "email"         :   "jabourne@bizmail.com",
+        "username"      :   "born_again71",
+        "address"       :   {
+            "housenumber"   :   "House 11",
+            "building"      :   "Stanford Gated Community No. 5",
+            "street"        :   "12 Charles Street",
+            "city"          :   "San Diego",
+            "state"         :   "CA",
+            "zipcode"       :   "85412",
+            "country"       :   "US"
+        },
+        "occupation"    :   "Web Developer",
+        "company"       :   {
+            "name"          :   "Alphabet Company Ltd.",
+            "address"       :   {
+                "building"      :   "Googleplex Main HQ",
+                "street"        :   "44 Google Street",
+                "city"          :   "San Diego",
+                "state"         :   "CA",
+                "zipcode"       :   "85400",
+                "country"       :   "US"
+            },
+            "telephone" :   "522-41225-8541"
+        },
+        "employstatus"  :   "Employed part-time"
+    }
+]

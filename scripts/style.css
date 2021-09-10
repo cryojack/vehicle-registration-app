@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*
+    Common selectors
+*/
+html {
+    background-color: white;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkmagenta;
+    color: white;
+}
+
+/*
+    Navigation bar selectors
+*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+.navbar li {
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+/*
+    Main and service section selectors
+*/
+
+.main-section, .job-section, .service-section {
+    width: 50%;
+    margin: 1% 25%;
+    padding: 20px;
+    display: block;
+    box-shadow: 1px 1px 1px 1px lightslategrey;
+}
+
+.main-section h1 {
+    text-align: center;
+}
+
+.main-section .input-box {
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.main-section label {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.main-section input,select {
+    width: 100%;
+}
+
+.main-section input,select,option,button {
+    font-size: 18px;    
+}
+
+.main-section input:focus,select:focus {
+    background-color: lightyellow;
+}
+
+.main-section button {
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0% 30%;
+    border-style: none;
+    background-color: mediumblue;
+    color: white;
+}
+
+.main-section button:hover {
+    font-size: 22px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.error-box {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+.main-section #showResults {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.main-section ul {
+    background-color: darkgrey;
+    list-style-type: none;
+}
+
+#showResults ul, .job-section ul, .service-section ul {
+    background-color:white;
+}
+
+#showResults li {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px;
+    list-style-type: none;
+    background-color: wheat;
+}
+
+.job-section li {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px;
+    list-style-type: none;
+    background-color: wheat;
+}
+
+.service-section li {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px;
+    list-style-type: none;
+    background-color: wheat;
+}
+
+.service-section h3 {
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+.service-section table {
+    margin: 0px auto;
+    border: solid 2px black;
+}
+
+.service-section th, td {
+    text-align: center;
+    border: solid 2px black;
+}
+
+.service-section td {
+    font-weight: lighter;
+}
+
+#deleteService {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: crimson;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#showResults button {
+    width: 30%;
+    font-size: 14px;
+    padding: 8px;
+    margin: 1% 30%;
+    border-style: none;
+    background-color: green;
+    color: white;
+}
+
+#showResults button:hover {
+    font-size: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.job-section button {
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 5px;
+    border-style: none;
+    background-color: darkblue;
+    color: white;
+}
+
+.job-section button:hover {
+    font-size: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.service-section button {
+    font-size: 15px;
+    padding: 8px;
+    margin: 0 5px;
+    border-style: none;
+    background-color: darkblue;
+    color: white;
+}
+.service-section button:hover {
+    font-size: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+    margin: 0% 25%;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    background-color: darkgrey;
+}
